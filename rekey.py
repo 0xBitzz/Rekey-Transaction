@@ -28,13 +28,13 @@ def rekey_example():
     account3 = mnemonic.to_public_key(account3_passphrase)
 
     print("Account 1 Address: ", account1)
-    print('Go to the below link to fund the created account using testnet faucet: \nhttps://dispenser.testnet.aws.algodev.network/?account={}'.format(account1))
+    print('Go to the below link to fund the created account using testnet faucet: \nhttps://app.dappflow.org/dispenser')
     input(f"Hit any key to continue")
     print("Account 2 Address: ", account2)
-    print('Go to the below link to fund the created account using testnet faucet: \nhttps://dispenser.testnet.aws.algodev.network/?account={}'.format(account2))
+    print('Go to the below link to fund the created account using testnet faucet: \nhttps://app.dappflow.org/dispenser')
     input(f"Hit any key to continue")
     print("Account 3 Address: ", account3)
-    print('Go to the below link to fund the created account using testnet faucet: \nhttps://dispenser.testnet.aws.algodev.network/?account={}'.format(account3)) 
+    print('Go to the below link to fund the created account using testnet faucet: \nhttps://app.dappflow.org/dispenser')
     input(f"Hit any key to continue")
 
     # Build transaction
